@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8390" started-at="2020-07-10T15:06:09 IST" finished-at="2020-07-10T15:06:17 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8390" started-at="2020-07-10T15:06:09 IST" finished-at="2020-07-10T15:06:17 IST">
+      <class name="test.sample">
+        <test-method status="PASS" signature="launchchrome()[pri:0, instance:test.sample@701fc37a]" name="launchchrome" is-config="true" duration-ms="750" started-at="2020-07-10T15:06:09 IST" finished-at="2020-07-10T15:06:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchchrome -->
+        <test-method status="PASS" signature="launchbrowser(java.lang.String)[pri:0, instance:test.sample@701fc37a]" name="launchbrowser" duration-ms="1762" started-at="2020-07-10T15:06:10 IST" data-provider="getd" finished-at="2020-07-10T15:06:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[guru99]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="youtubeOpen()[pri:0, instance:test.sample@701fc37a]" name="youtubeOpen" duration-ms="3007" started-at="2020-07-10T15:06:11 IST" finished-at="2020-07-10T15:06:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- youtubeOpen -->
+        <test-method status="PASS" signature="youtubeOpen()[pri:0, instance:test.sample@701fc37a]" name="youtubeOpen" duration-ms="2698" started-at="2020-07-10T15:06:14 IST" finished-at="2020-07-10T15:06:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- youtubeOpen -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:test.sample@701fc37a]" name="quitDriver" is-config="true" duration-ms="129" started-at="2020-07-10T15:06:17 IST" finished-at="2020-07-10T15:06:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- test.sample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
